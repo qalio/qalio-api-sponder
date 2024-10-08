@@ -1,5 +1,5 @@
-# qalio-api-macy
+# qalio-api-sponder
 
-Subproject macy for qalio-api.
+Subproject sponder for qalio-api.
 
-User roles and permissions management (RBAC or ABAC models).
+Live streaming (real-time video/audio streaming and chat).
