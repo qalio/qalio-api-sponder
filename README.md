@@ -1,3 +1,5 @@
-# qalio-api-sponder
+# qalio-api-macy
 
-Subproject sponder for qalio-api
+Subproject macy for qalio-api.
+
+User roles and permissions management (RBAC or ABAC models).
