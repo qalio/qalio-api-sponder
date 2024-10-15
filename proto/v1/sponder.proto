@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package sponder.v1;
+
+import "proto/v1/common/utils.proto";
+
+message LiveStreamRequest {
+  string user_id = 1;
+  string stream_title = 2;
+}
+
+message LiveStreamResponse {
+  string stream_id = 1;
+  string status = 2;
+}
+
+service SponderService {
+  rpc StartLiveStream(LiveStreamRequest) returns (LiveStreamResponse);
+  rpc StopLiveStream(LiveStreamRequest) returns (LiveStreamResponse);
+}
